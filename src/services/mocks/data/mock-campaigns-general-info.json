@@ -1,0 +1,356 @@
+[
+  {
+    "id": "6324",
+    "name": "The strange adventures",
+    "imageUrl": "https://s3.amazonaws.com/files.d20.io/images/150821002/LAb24V6FNOnmQvjMniPseg/max.jpg?1594918068843",
+    "playTimeMs": 7200000,
+    "dicesRolledCount": 8068843,
+    "sessions": [
+      { "start": 1527425795655, "end": 1527450584832 },
+      { "start": 1533126988114, "end": 1533142718441 },
+      { "start": 1535632609418, "end": 1535643728484 },
+      { "start": 1535733362798, "end": 1535822044682 },
+      { "start": 1536073081893, "end": 1536085431528 },
+      { "start": 1536420606315, "end": 1536432750772 },
+      { "start": 1536946695553, "end": 1537121690653 },
+      { "start": 1537984001044, "end": 1537993052973 },
+      { "start": 1540487891584, "end": 1540499579954 },
+      { "start": 1541190824432, "end": 1541196549535 },
+      { "start": 1542483125409, "end": 1542494407040 },
+      { "start": 1543694672534, "end": 1543709275227 },
+      { "start": 1547753381463, "end": 1547846574700 },
+      { "start": 1549657093741, "end": 1549667244124 },
+      { "start": 1552149952947, "end": 1552172447739 },
+      { "start": 1554491320424, "end": 1554500915043 },
+      { "start": 1557173421092, "end": 1557177600119 },
+      { "start": 1560077768348, "end": 1560085805911 },
+      { "start": 1564930216407, "end": 1564952752553 },
+      { "start": 1575058018198, "end": 1575067302953 },
+      { "start": 1575755233296, "end": 1575755233296 },
+      { "start": 1578860010986, "end": 1578866501576 },
+      { "start": 1583698007763, "end": 1583705140697 },
+      { "start": 1584648549886, "end": 1584654807632 },
+      { "start": 1584890557313, "end": 1584900560746 },
+      { "start": 1584985034969, "end": 1584985067645 },
+      { "start": 1585237443356, "end": 1585258975648 },
+      { "start": 1586089852976, "end": 1586103707982 },
+      { "start": 1586459989638, "end": 1586526349314 },
+      { "start": 1586977821105, "end": 1586988513048 },
+      { "start": 1587906522827, "end": 1587917817973 },
+      { "start": 1589397658904, "end": 1589403145616 },
+      { "start": 1590002162491, "end": 1590009560727 },
+      { "start": 1590261320716, "end": 1590327237059 },
+      { "start": 1590693906152, "end": 1590700484251 },
+      { "start": 1591521171222, "end": 1591564247343 },
+      { "start": 1592508439164, "end": 1592515297838 },
+      { "start": 1593803689746, "end": 1593814656358 },
+      { "start": 1594840354936, "end": 1594846100290 },
+      { "start": 1595360757488, "end": 1595367460389 },
+      { "start": 1595963586945, "end": 1595970869240 },
+      { "start": 1596137414290, "end": 1596144589884 },
+      { "start": 1596655279420, "end": 1596661438031 },
+      { "start": 1599333583672, "end": 1599345672017 },
+      { "start": 1600370074085, "end": 1600376152056 },
+      { "start": 1601407878297, "end": 1601413996961 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": false,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": false,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": true,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6325",
+    "playTimeMs": 172800000,
+    "name": "Parry Hotter and the shilosopher ptone",
+    "imageUrl": "https://i.imgur.com/7Ux6SGK.png",
+    "dicesRolledCount": 2,
+    "sessions": [
+      { "start": 1527425795655, "end": 1527450584832 },
+      { "start": 1533126988114, "end": 1533142718441 },
+      { "start": 1535632609418, "end": 1535643728484 },
+      { "start": 1535733362798, "end": 1535822044682 },
+      { "start": 1536073081893, "end": 1536085431528 },
+      { "start": 1536420606315, "end": 1536432750772 },
+      { "start": 1536946695553, "end": 1537121690653 },
+      { "start": 1537984001044, "end": 1537993052973 },
+      { "start": 1540487891584, "end": 1540499579954 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": false,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": true,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6326",
+    "playTimeMs": 172800000,
+    "name": "I can't believe my Cthulu is this cute ",
+    "imageUrl": "https://d3u67r7pp2lrq5.cloudfront.net/product_photos/62702853/file_52cb998278_400sq.png",
+    "dicesRolledCount": 153,
+    "sessions": [
+      { "start": 1591521171222, "end": 1591564247343 },
+      { "start": 1592508439164, "end": 1592515297838 },
+      { "start": 1593803689746, "end": 1593814656358 },
+      { "start": 1594840354936, "end": 1594846100290 },
+      { "start": 1595360757488, "end": 1595367460389 },
+      { "start": 1595963586945, "end": 1595970869240 },
+      { "start": 1596137414290, "end": 1596144589884 },
+      { "start": 1596655279420, "end": 1596661438031 },
+      { "start": 1599333583672, "end": 1599345672017 },
+      { "start": 1600370074085, "end": 1600376152056 },
+      { "start": 1601407878297, "end": 1601413996961 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": false,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": true,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": false,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6327",
+    "playTimeMs": 345600000,
+    "name": "Begone Thot",
+    "imageUrl": "https://www.shareicon.net/data/512x512/2016/09/15/829302_egypt_512x512.png",
+    "dicesRolledCount": 2048,
+    "sessions": [
+      { "start": 1583698007763, "end": 1583705140697 },
+      { "start": 1584648549886, "end": 1584654807632 },
+      { "start": 1584890557313, "end": 1584900560746 },
+      { "start": 1584985034969, "end": 1584985067645 },
+      { "start": 1585237443356, "end": 1585258975648 },
+      { "start": 1586089852976, "end": 1586103707982 },
+      { "start": 1586459989638, "end": 1586526349314 },
+      { "start": 1586977821105, "end": 1586988513048 },
+      { "start": 1587906522827, "end": 1587917817973 },
+      { "start": 1589397658904, "end": 1589403145616 },
+      { "start": 1590002162491, "end": 1590009560727 },
+      { "start": 1590261320716, "end": 1590327237059 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": true,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": false,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6328",
+    "playTimeMs": 7200000,
+    "name": "Sea, Salt & burns",
+    "imageUrl": "https://i.ytimg.com/vi/cE0wfjsybIQ/maxresdefault.jpg",
+    "dicesRolledCount": 208,
+    "sessions": [
+      { "start": 1600370074085, "end": 1600376152056 },
+      { "start": 1601407878297, "end": 1601413996961 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": true,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": false,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6329",
+    "playTimeMs": 7200000,
+    "name": "I traded my soul for a dishwasher",
+    "imageUrl": "https://cdn0.iconfinder.com/data/icons/household-filled-color/300/135259126Untitled-3-512.png",
+    "dicesRolledCount": 412,
+    "sessions": [
+      { "start": 1527425795655, "end": 1527450584832 },
+      { "start": 1533126988114, "end": 1533142718441 },
+      { "start": 1535632609418, "end": 1535643728484 },
+      { "start": 1535733362798, "end": 1535822044682 },
+      { "start": 1536073081893, "end": 1536085431528 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": false,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": true,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  },
+  {
+    "id": "6330",
+    "playTimeMs": 7200000,
+    "name": "Secure, Protecc and Complain",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRITRKEm0LkouxfpAVB06NLzCQE_Fh7dHoISA&usqp=CAU",
+    "dicesRolledCount": 896,
+    "sessions": [
+      { "start": 1583698007763, "end": 1583705140697 },
+      { "start": 1584648549886, "end": 1584654807632 },
+      { "start": 1584890557313, "end": 1584900560746 },
+      { "start": 1584985034969, "end": 1584985067645 },
+      { "start": 1585237443356, "end": 1585258975648 },
+      { "start": 1586089852976, "end": 1586103707982 },
+      { "start": 1586459989638, "end": 1586526349314 },
+      { "start": 1586977821105, "end": 1586988513048 },
+      { "start": 1587906522827, "end": 1587917817973 },
+      { "start": 1589397658904, "end": 1589403145616 },
+      { "start": 1590002162491, "end": 1590009560727 },
+      { "start": 1590261320716, "end": 1590327237059 },
+      { "start": 1590693906152, "end": 1590700484251 },
+      { "start": 1591521171222, "end": 1591564247343 },
+      { "start": 1592508439164, "end": 1592515297838 },
+      { "start": 1593803689746, "end": 1593814656358 },
+      { "start": 1594840354936, "end": 1594846100290 },
+      { "start": 1595360757488, "end": 1595367460389 },
+      { "start": 1595963586945, "end": 1595970869240 },
+      { "start": 1596137414290, "end": 1596144589884 },
+      { "start": 1596655279420, "end": 1596661438031 },
+      { "start": 1599333583672, "end": 1599345672017 },
+      { "start": 1600370074085, "end": 1600376152056 },
+      { "start": 1601407878297, "end": 1601413996961 }
+    ],
+    "players": [
+      {
+        "avatarUrl": "https://i.imgur.com/9b7ajPf.jpeg",
+        "isGm": true,
+        "roll20Id": "123456",
+        "username": "Weeby boi"
+      },
+      {
+        "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdHSd5yQ0MpW8GuOCxs8RiZJOyerUBECizfQ&usqp=CAU",
+        "isGm": false,
+        "roll20Id": "123457",
+        "username": "Edgy boi"
+      },
+      {
+        "avatarUrl": "https://www.ahlens.se/INTERSHOP/static/WFS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/54AP1TNNVO_90524318_front.jpg",
+        "isGm": false,
+        "roll20Id": "123458",
+        "username": "Salty boi"
+      },
+      {
+        "avatarUrl": "https://i.imgur.com/iXHCJhL.png",
+        "isGm": false,
+        "roll20Id": "123459",
+        "username": "An actual goat"
+      }
+    ]
+  }
+]

@@ -1,0 +1,515 @@
+{
+  "start": 1527425795655,
+  "end": 1527450584832,
+  "messages": [
+    {
+      ".priority": 1535733362798,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 91 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 91
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "186b7900c35ccd79596c92424f8dcb6f7bc3e3df832bede3b9d2ef812354eb706d0c521643954f77560324abe30ec141439f96c386e7d66dca017a7d3b3343dc",
+      "type": "rollresult",
+      "who": "SoTrx d."
+    },
+    {
+      ".priority": 1535733466494,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 74 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 74
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "01b359dbfb869a19fcb8ab1ff2a4ae153aa0c298136a1e5a3e25baa4b27e6382534912ba1fdf738b8573850a9edd154d2977a525735ca99c10cca6e827d8b487",
+      "type": "rollresult",
+      "who": "SoTrx d."
+    },
+    {
+      ".priority": 1535733476067,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 60,
+            "mods": {},
+            "results": [{ "v": 21 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 21
+      },
+      "origRoll": "1d60",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "89828c60fd71e9efb2b28339022ca4da5e77cb6ef539e6a7cbeb3186d5c933c5fbd85cd5550829ed5454ac4ee6a5460f9b24541ed153a0b52152504528494a36",
+      "type": "rollresult",
+      "who": "SoTrx d."
+    },
+    {
+      ".priority": 1535748754585,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "La foule en délire attend le premier jet",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535748754898,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 27 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 27
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "81bd67a6645ea41385a27d326fdc89dbea125749e74172b9c2dd79602906ec31b945898fd95fb714237d23ad63cf4c20d73223aaa0518c0d533e05f1a2bb5c87",
+      "type": "rollresult",
+      "who": "Maxou (hotage de sa beauté)"
+    },
+    {
+      ".priority": 1535748882625,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 23 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 23
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "0da4ba1496fe6b6582ae1752a96d547cb63cd67d28c7098af303cd22091a986f581f0fe089e29ac45077743b214a568ee21e716c80577ad25f533a5134845065",
+      "type": "rollresult",
+      "who": "Maxou (hotage de sa beauté)"
+    },
+    {
+      ".priority": 1535748889262,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "Intimidation non ?",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535748897521,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "k",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535749657738,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 67 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 67
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "49dfe9f2bcd9082d90a52e7e7b3498721d49ae98e600e5cfcee3d1a625fc3286f4c9b9ca65e966370cb93aa69a03d0378532c06d76aa947342fee003258f9652",
+      "type": "rollresult",
+      "who": "Maxou (hotage de sa beauté)"
+    },
+    {
+      ".priority": 1535749808316,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "La foule retient son souffle",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535750000507,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "grognement déçu de la foule",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535750646523,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/69203780/VQJs94-ZIswfSEqlmL_6VA/thumb.jpg?1544981081368&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 98 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 98
+      },
+      "origRoll": "1d100",
+      "playerid": "-L4I0RvKL1f4GQvahwrU",
+      "signature": "0900486ac4a268e73ff928929dca936210621d7d45bfeec9934c337a7419da2814a15b96761af11cf5ac506be18b9c3e5d8ab3c94d3d24eae958b329f544fda7",
+      "type": "gmrollresult",
+      "who": "MJ (GM)"
+    },
+    {
+      ".priority": 1535751310210,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 46 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 46
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "6d6280e55e2f0ce2996b74a5eb41e8adb05593be05994f40a48394406f125fb5e4f83c84fd867ce14ac2ea0627a4c69bf3fa3464fbb40f6e57f7143984b26afd",
+      "type": "rollresult",
+      "who": "Maxou (hotage de sa beauté)"
+    },
+    {
+      ".priority": 1535751549517,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "POPOPO-ESIE",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535752083530,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "this so sad ALexa play Fauve",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535752620137,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 44 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 44
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "933f0d8a80d6c3046abdbea44e56d82e0657295e64a67ed8d889cafba9c10a7b27ed7f754def7bdeac28bce176787bb870355d2acfa3ecf7f935a8bc76b4466f",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754021941,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "Normalement, il y a un cri pas d'enthousiasme",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535754022456,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 23 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 23
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "47ad95b76d16972b8a48a2989abf22b0937aa16955ad9b9f2764f225e0ab489d753ce302406d3b0c5dd534788cd0523068032413fee8b19bb3322be1fd901152",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754125314,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 55 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 55
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "6fa6253d58c7e2d400a8b78de32c168ac40ac7b31923d3782050c9af8f55c5ae8194a19f5474fa90f9a44d2eecf334498776b50df6ff862dd1d080998a765aa9",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754259789,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 41 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 41
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "78803a22441e9061369d6dc4777fd2ee3ecc3967207e15dbe25f92a10c4be00090d0a7148c153363c81a6102133827ccb523e0feef1bdfe2ae26019aac814daa",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754264199,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 73 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 73
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "04bbb8fea29d99976cb3a155f25d2a41c1e64f4fc11854b2e0e05b979726f7a395f0f033a0b53719f2ea5cd8fb2c4eebdf12df7ea354d38b8c789eb4adb7ac88",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754292461,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/69203780/VQJs94-ZIswfSEqlmL_6VA/thumb.jpg?1544981081368&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 63 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 63
+      },
+      "origRoll": "1d100",
+      "playerid": "-L4I0RvKL1f4GQvahwrU",
+      "signature": "4fc3a5bac041c3028351c63a8194779c6ca4fd3a97171eb3fde7445c2f3ca91fd115787565efcdf012487dda289e322d718c0be2a91e7f9936a0eb140586fb45",
+      "type": "gmrollresult",
+      "who": "MJ (GM)"
+    },
+    {
+      ".priority": 1535754422132,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/174795800/BpCq3LIhM_vw92hso2l6NQ/thumb.jpg?1604226931276&size=30",
+      "content": "squick squick fait Lucas",
+      "playerid": "-LDY75oDMPrHqWUA4doo",
+      "type": "general",
+      "who": "Almanyar de Vethrfolnir ( Ange du Darwinisme)"
+    },
+    {
+      ".priority": 1535754485582,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 75 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 75
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "7db0bad080902e610d527e07579c0ede3da040c37639c9c1bb84ed7524edadf9f60f43fd6d1b0d9b6c29d78f638f30660ca6f8ae083aa12abc38bcd1a615264f",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535754564785,
+      "avatar": "https://secure.gravatar.com/avatar/52933fbf025510a0edb2b736c1a8305d?d=identicon&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 55 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 55
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDXNxujgZAL6TYQ-wau",
+      "signature": "8e9696d8d9986c727dfa5dde91d333fe42fad7f054f570c3b826eba4cc24063769af1bbab263699b5d49651310fc4f2004ebe855746b25d90ef5c5d848c443b4",
+      "type": "rollresult",
+      "who": "Maxou (Nude w/ me)"
+    },
+    {
+      ".priority": 1535819485739,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/135950850/HMHqZ5lTYH3CpBlGkhK6Dw/thumb.jpg?1589825705774&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 3,
+            "sides": 6,
+            "mods": {},
+            "results": [{ "v": 4 }, { "v": 5 }, { "v": 5 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 14
+      },
+      "origRoll": "3d6",
+      "playerid": "-LDWd2cH5k79t8ARkrv4",
+      "signature": "a20143a576957053c445e1c7339ff7468b64fad46c87891bec0e76832e37b4d1249ee346fa9729c485fa6ebab5c19fe950bb7fa4df5789b19615d1ed1b7b5e58",
+      "type": "rollresult",
+      "who": "Filae T."
+    },
+    {
+      ".priority": 1535819508871,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/135950850/HMHqZ5lTYH3CpBlGkhK6Dw/thumb.jpg?1589825705774&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 3,
+            "sides": 6,
+            "mods": {},
+            "results": [{ "v": 6 }, { "v": 1 }, { "v": 6 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 13
+      },
+      "origRoll": "3d6",
+      "playerid": "-LDWd2cH5k79t8ARkrv4",
+      "signature": "3aa4fbc6848664904d38278f21bb5ff12becf0f779ac17452f4bfcd67fbe712d51c3e3df0b69344fd7212846962d77dcac838d6915dc619faeeee1f5a089b801",
+      "type": "rollresult",
+      "who": "Filae T."
+    },
+    {
+      ".priority": 1535822044682,
+      "avatar": "https://s3.amazonaws.com/files.d20.io/images/135950850/HMHqZ5lTYH3CpBlGkhK6Dw/thumb.jpg?1589825705774&size=30",
+      "content": {
+        "type": "V",
+        "rolls": [
+          {
+            "type": "R",
+            "dice": 1,
+            "sides": 100,
+            "mods": {},
+            "results": [{ "v": 95 }]
+          }
+        ],
+        "resultType": "sum",
+        "total": 95
+      },
+      "origRoll": "1d100",
+      "playerid": "-LDWd2cH5k79t8ARkrv4",
+      "signature": "1aa062e8aadf480e6832f3c71e802bea7966852a6c4f6ea94b2f807e97e82d6a99722f9e50927076d056b697ee366a27fcc5d6714f81cc4fd303a7a6545b5054",
+      "type": "rollresult",
+      "who": "Filae T."
+    }
+  ]
+}

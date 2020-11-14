@@ -1,7 +1,7 @@
 FROM node:current-alpine as build
 WORKDIR /app
 COPY package.json /app/
-RUN apk add yarn && yarn install
+RUN apk add yarn python && yarn install
 COPY . /app/
 RUN yarn run build
 

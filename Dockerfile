@@ -1,9 +1,9 @@
 FROM node:current-alpine as build
 WORKDIR /app
 COPY package.json /app/
-RUN npm install
+RUN apk add yarn && yarn install
 COPY . /app/
-RUN npm run build
+RUN yarn run build
 
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/nginx.conf

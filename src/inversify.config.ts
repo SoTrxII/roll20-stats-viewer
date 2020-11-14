@@ -10,8 +10,6 @@ import { IRollParser, IRollParsing } from "@/@types/roll-parsing.service";
 import { RollsParsingService } from "@/services/rolls-parsing.service";
 import { PlainRollsParser } from "@/services/parsers/plain-rolls-parser";
 import { CthuluRollsParser } from "@/services/parsers/cthulu-rolls-parser";
-require("dotenv-safe").config();
-
 export const container = new Container();
 
 /*container

@@ -10,6 +10,8 @@ import { IRollParser, IRollParsing } from "@/@types/roll-parsing.service";
 import { RollsParsingService } from "@/services/rolls-parsing.service";
 import { PlainRollsParser } from "@/services/parsers/plain-rolls-parser";
 import { CthuluRollsParser } from "@/services/parsers/cthulu-rolls-parser";
+console.log(process.env.VUE_APP_BACKEND_URL);
+
 export const container = new Container();
 
 /*container
@@ -20,7 +22,7 @@ export const container = new Container();
 //container.bind<IBackend>(TYPES.BackendService).to(BackendServiceMock);
 container
   .bind<IBackend>(TYPES.BackendService)
-  .toConstantValue(new BackendService(process.env.BACKEND_URL));
+  .toConstantValue(new BackendService(process.env.VUE_APP_BACKEND_URL));
 
 container.bind<IRollParsing>(TYPES.RollParsingService).to(RollsParsingService);
 //Register all dice parsers

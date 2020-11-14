@@ -1,7 +1,18 @@
 <template>
   <v-container>
-    <h2>Roll20 Stats Viewer</h2>
-    <v-img src="https://app.roll20.net/v2/images/roll20-logo.png?v=2"></v-img>
+    <p class="display-1">
+      Hey this is the Home page, probably the last thing I'll build because it's
+      boring af. This is a dev build, don't expect fancy things.
+    </p>
+    <h2 class="display-2">
+      Use the burger menu to choose a campaign to display.
+    </h2>
+
+    <p></p>
+    <h3>Here's a walking chicken in the meantime</h3>
+    <v-img
+      src="https://media1.tenor.com/images/8901446370d2dc324959d168aa7eadcf/tenor.gif"
+    ></v-img>
   </v-container>
 </template>
 

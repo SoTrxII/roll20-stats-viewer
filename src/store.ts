@@ -62,6 +62,16 @@ export default new Vuex.Store({
       //@ts-ignore
       return state.displayedSession;
     },
+    getAllSessions: (state) => (id: string): SessionDetails[] => {
+      const data: SessionDetails[] = [];
+      const fullSessionId = (sId: number) => `${id}${sId}`;
+      for (let i = 0; state.sessionsDetails.has(fullSessionId(i)); i++) {
+        data.push(
+          state.sessionsDetails.get(fullSessionId(i)) as SessionDetails
+        );
+      }
+      return data;
+    },
   },
   mutations: {
     /*setProducts(state, products) {
@@ -80,9 +90,7 @@ export default new Vuex.Store({
       state.sessionsDetails.set(infos[0], infos[1]);
     },
     setDisplayedSession(state: Record<string, any>, s: Session) {
-      console.log(s);
       Object.assign(state.displayedSession, s);
-      console.log(state.displayedSession);
     },
   },
   actions: {

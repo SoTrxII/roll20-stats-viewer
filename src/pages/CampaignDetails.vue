@@ -30,6 +30,16 @@
         :players="displayed.players.filter((p) => !p.isGm)"
       ></avatar-list>
     </v-container>
+
+    <rolls-per-player-by-time
+      :hidden="rolls.length === 0"
+      :rolls="rolls"
+    ></rolls-per-player-by-time>
+    <v-skeleton-loader v-if="isLoading" type="card-avatar"></v-skeleton-loader>
+    <v-btn @click="fetchAllRolls" v-if="rolls.length === 0">{{
+      isLoading ? "Fetching data..." : "Display campaign roll charts"
+    }}</v-btn>
+
     <sessions-list :sessions="displayed.sessions"></sessions-list>
   </v-container>
 </template>
@@ -39,6 +49,11 @@ import { Component, Vue } from "vue-property-decorator";
 import { mapGetters } from "vuex";
 import AvatarList from "@/components/AvatarList.vue";
 import SessionsList from "@/components/SessionsList.vue";
+import RollsPerPlayerByTime from "@/components/RollsPerPlayerByTime.vue";
+import { ChatMessage, Session } from "@/@types/backend.service";
+import { IParsedRoll, IRollParsing } from "@/@types/roll-parsing.service";
+import { $inject } from "@vanroeybe/vue-inversify-plugin";
+import { TYPES } from "@/types";
 
 @Component({
   computed: mapGetters({
@@ -51,9 +66,47 @@ import SessionsList from "@/components/SessionsList.vue";
       return `${Math.floor(h)}`;
     },
   },
-  components: { AvatarList, SessionsList },
+  components: { RollsPerPlayerByTime, AvatarList, SessionsList },
 })
 export default class CampaignDetails extends Vue {
+  private isLoading: boolean = false;
+  private rolls: IParsedRoll[] = [];
+  //@ts-ignore
+  @$inject(TYPES.RollParsingService) private rollParsingService: IRollParsing;
+
+  async fetchAllRolls() {
+    this.isLoading = true;
+    // This first fetch is a "hack". By pre-fetching the first session
+    // We can be sure that the backend cache will be queried in all others calls
+    await this.$store.dispatch("fetchSessionDetails", [
+      this.$route.params.id,
+      0,
+    ]);
+
+    // Fetch all sessions. This is quite an heavy task for larger campaigns
+    await Promise.all(
+      this.$store.getters.getDisplayedCampaign.sessions.map(
+        async (s: Session, i: number) =>
+          this.$store.dispatch("fetchSessionDetails", [
+            this.$route.params.id,
+            i,
+          ])
+      )
+    );
+
+    const allSessions: Session[] = this.$store.getters.getAllSessions(
+      this.$route.params.id
+    );
+    this.rolls = allSessions
+      .flatMap((s) => s.messages)
+      .filter((m) => this.rollParsingService.isARoll(m))
+      // Parse them to have a unified way to process rolls
+      .flatMap(
+        (m: ChatMessage) => this.rollParsingService.parse(m) as IParsedRoll
+      )
+      .filter((r: IParsedRoll) => r);
+    this.isLoading = false;
+  }
   beforeCreate() {
     if (!this.$store.state.campaignList.length) {
       this.$store.dispatch("fetchCampaignList");
@@ -66,6 +119,9 @@ export default class CampaignDetails extends Vue {
 
   beforeRouteUpdate(to: any, from: any, next: any) {
     this.$store.dispatch("fetchCampaignGeneralInfos", to.params.id);
+    // Empty rolls and reset loading state to prevent to display wrong data
+    this.rolls = [];
+    this.isLoading = false;
     next();
   }
 }

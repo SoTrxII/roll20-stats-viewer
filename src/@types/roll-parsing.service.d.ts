@@ -10,6 +10,7 @@ import {
  */
 export interface IRollParsing {
   parse(message: ChatMessage): IParsedRoll | undefined;
+  isARoll(m: ChatMessage): boolean;
 }
 
 export interface IRollParser {

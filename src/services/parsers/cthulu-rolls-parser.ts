@@ -26,7 +26,7 @@ export class CthuluRollsParser implements IRollParser {
     // Roll20 templates can be buggy.
     // In the Cthulu 7e template, rolling an additional skill with a custom name can lead to
     // rolling nothing at all. Just in case that happens, better safe than sorry
-    if (parsed.roll == undefined) {
+    if (parsed.roll == undefined || parsed.roll_target?.results == undefined) {
       return undefined;
     }
     return {

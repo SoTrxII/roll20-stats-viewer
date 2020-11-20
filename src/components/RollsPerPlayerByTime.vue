@@ -166,7 +166,7 @@ export default class RollsPerPlayerByTime extends Vue {
   get layout() {
     return {
       autosize: true,
-      showlegend: true,
+      showlegend: !this.$vuetify.breakpoint.smAndDown,
     };
   }
   get options() {

@@ -14,16 +14,19 @@ const router = new Router({
     {
       path: "/",
       name: "home",
+      //@ts-ignore
       component: Home,
     },
     {
       path: "/campaign/:id",
       name: "campaign details",
+      //@ts-ignore
       component: CampaignDetails,
     },
     {
       path: "/session/:cid/:sid",
       name: "sessions details",
+      //@ts-ignore
       component: SessionDetails,
     },
   ],

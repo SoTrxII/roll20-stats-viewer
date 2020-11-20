@@ -75,6 +75,6 @@ export default class Default extends Vue {
   background-position: top center;
 }
 #top {
-  z-index: 9999;
+  z-index: 9998;
 }
 </style>

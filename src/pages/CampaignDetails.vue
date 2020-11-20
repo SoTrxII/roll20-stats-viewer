@@ -8,25 +8,25 @@
       :lazy-src="displayed.thumbnailUrl"
       :src="displayed.imageUrl"
     ></v-img>
-    <v-container class="d-flex justify-space-between align-center">
+    <v-container :class="headerClasses">
       <avatar-list
-        class="ml-1"
+        class="ml-1 mb-5"
         :players="displayed.players.filter((p) => p.isGm)"
       ></avatar-list>
-      <div>
-        <p class="text-h2">
+      <div class="mb-5">
+        <p class="text-h2 mb-5">
           {{ displayed.playTimeMs | formatMs }}
         </p>
         <p class="caption">Hours played</p>
       </div>
-      <div>
+      <div class="mb-5">
         <p class="text-h2">
           {{ displayed.dicesRolledCount }}
         </p>
         <p class="caption">Dices Rolled</p>
       </div>
       <avatar-list
-        class="mr-5"
+        class="mr-5 mb-5"
         :players="displayed.players.filter((p) => !p.isGm)"
       ></avatar-list>
     </v-container>
@@ -36,7 +36,7 @@
       :rolls="rolls"
     ></rolls-per-player-by-time>
     <v-skeleton-loader v-if="isLoading" type="card-avatar"></v-skeleton-loader>
-    <v-btn @click="fetchAllRolls" v-if="rolls.length === 0">{{
+    <v-btn class="ml-3" @click="fetchAllRolls" v-if="rolls.length === 0">{{
       isLoading ? "Fetching data..." : "Display campaign roll charts"
     }}</v-btn>
 
@@ -123,6 +123,12 @@ export default class CampaignDetails extends Vue {
     this.rolls = [];
     this.isLoading = false;
     next();
+  }
+
+  get headerClasses() {
+    let base = "d-flex justify-space-between align-center ";
+    if (this.$vuetify.breakpoint.smAndDown) base += "flex-column";
+    return base;
   }
 }
 </script>

@@ -15,11 +15,11 @@
       ></v-app-bar-nav-icon>
       <v-toolbar-title>{{ displayed.name }}</v-toolbar-title>
     </v-app-bar>
-    <v-navigation-drawer v-model="isDrawerVisible" app width="192">
+    <v-navigation-drawer v-model="isDrawerVisible" app width="192" id="top">
       <v-container fill-height>
         <v-list>
           <v-list-item
-            class="mt-lg-7"
+            class="mt-7"
             v-for="c of $store.state.campaignList"
             v-bind:key="c.id"
           >
@@ -73,5 +73,8 @@ export default class Default extends Vue {
 <style>
 .toppedBg {
   background-position: top center;
+}
+#top {
+  z-index: 9999;
 }
 </style>

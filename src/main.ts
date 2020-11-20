@@ -32,6 +32,7 @@ new Vue({
       locales: { fr },
       current: "fr",
     },
+    //theme: { dark: true },
   }),
   store: store,
 });

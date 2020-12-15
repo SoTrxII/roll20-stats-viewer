@@ -69,10 +69,12 @@ export default class RollsPerPlayerByTime extends Vue {
   isDisplayed(chartType: string): boolean {
     return chartType === this.selectedChartType;
   }
+
   changePlotData(diceType?: number) {
     this.displayedScatterData = this.formatData(diceType, CHART_TYPE.SCATTER);
     this.displayedBoxData = this.formatData(diceType, CHART_TYPE.BOX);
   }
+
   formatData(diceType: number = this.lastDiceType, chartType: string) {
     this.lastDiceType = diceType;
     const playerRolls = this.rolls
@@ -133,6 +135,7 @@ export default class RollsPerPlayerByTime extends Vue {
       return trace;
     }, {});
   }
+
   formatTracesForBox(playerRolls: IParsedRoll[], diceType: number) {
     return playerRolls.reduce((trace: Record<string, any>, m: IParsedRoll) => {
       trace.name ??= m.who;
@@ -149,6 +152,7 @@ export default class RollsPerPlayerByTime extends Vue {
       return trace;
     }, {});
   }
+
   /**
    * Get all types of dices used in this subset of data
    */
@@ -163,16 +167,16 @@ export default class RollsPerPlayerByTime extends Vue {
       .filter((d) => d)
       .sort((d1, d2) => d1 - d2);
   }
+
   get layout() {
     return {
       autosize: true,
       showlegend: !this.$vuetify.breakpoint.smAndDown,
     };
   }
+
   get options() {
     return {};
   }
 }
 </script>
-
-<style></style>

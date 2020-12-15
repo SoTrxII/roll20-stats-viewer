@@ -13,9 +13,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@master
       - name: Build
-        run:
-          - npm install @vue/cli-service
-          - npm run build
+        run: yarn add -D @vue/cli-service-global @vue/cli && yarn run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

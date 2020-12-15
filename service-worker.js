@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.26f0a9e5e7fa35ebbadfd53b481256d9.js"
+  "/roll20-stats-viewer/precache-manifest.78c6a09775d2f2b3652be8030972cc9e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "rpg-avaibilities"});

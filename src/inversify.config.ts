@@ -1,8 +1,6 @@
 import { Container } from "inversify";
 import { IAuthService } from "@/@types/auth.service";
 import { TYPES } from "@/types";
-import { AuthService } from "@/services/auth.service";
-import { AuthServiceMock } from "@/services/mocks/auth.service.mock";
 import { BackendService } from "@/services/backend.service";
 import { IBackend } from "@/@types/backend.service";
 import { BackendServiceMock } from "@/services/mocks/backend.service.mock";

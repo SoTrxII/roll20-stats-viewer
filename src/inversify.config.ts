@@ -20,7 +20,7 @@ export const container = new Container();
 //container.bind<IBackend>(TYPES.BackendService).to(BackendServiceMock);
 container
   .bind<IBackend>(TYPES.BackendService)
-  .toConstantValue(new BackendService(process.env.VUE_APP_BACKEND_URL));
+  .toConstantValue(new BackendServiceMock());
 
 container.bind<IRollParsing>(TYPES.RollParsingService).to(RollsParsingService);
 //Register all dice parsers

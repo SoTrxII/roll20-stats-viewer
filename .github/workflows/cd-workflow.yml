@@ -12,9 +12,8 @@ jobs:
         uses: actions/checkout@v1
       - name: Setup Node
         uses: actions/setup-node@master
-        run: sudo npm install -g @vue/cli
       - name: Build
-        run: npm run build
+        run: npm install @vue/cli-service-global @vue/cli && npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

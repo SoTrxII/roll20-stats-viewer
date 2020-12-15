@@ -13,7 +13,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@master
       - name: Build
-        run: npx vue-cli-service build
+        run:
+          - npm install @vue/cli-service
+          - npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

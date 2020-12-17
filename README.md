@@ -9,7 +9,7 @@ A demo with fixtures is hosted on [GitHub pages](https://sotrxii.github.io/roll2
 An actual live version, allowing you to get your info on your games, is running here.
 **However, please be aware that the recommended way to run this project is to run your own instance.**
 There is no Roll20 OAuth mechanism whatsoever, your credentials are used to connect to your account
-and collect the data needed (see [backend]()).
+and collect the data needed (see [backend](https://github.com/SoTrxII/roll20-stats-viewer-backend)).
 If you're using this live version, connect to it using a throwaway/bot account, or change your
 account password after using it.
 
@@ -17,7 +17,7 @@ account password after using it.
 
 - Aggregate general info on campaigns, such as time played or dice rolled count
 - Display charts dice chart for each individual session of for the whole campaign
-- View each individual game session (more on that in [assumptions on the backend page]())
+- View each individual game session (more on that in [assumptions on the backend page](https://github.com/SoTrxII/roll20-stats-viewer-backend))
 
 ### Modes
 

@@ -10,7 +10,6 @@ import { PlainRollsParser } from "@/services/parsers/plain-rolls-parser";
 import { CthuluRollsParser } from "@/services/parsers/cthulu-rolls-parser";
 import { AuthService } from "@/services/auth.service";
 import { AuthServiceMock } from "@/services/mocks/auth.service.mock";
-console.log(process.env.VUE_APP_BACKEND_URL);
 
 export const container = new Container();
 
@@ -27,15 +26,22 @@ if (process.env.VUE_APP_AUTH == "CLIENT") {
 }
 
 //container.bind<IBackend>(TYPES.BackendService).to(BackendServiceMock);
-container
-  .bind<IBackend>(TYPES.BackendService)
-  .toConstantValue(
-    new BackendService(
-      container.get<IAuthService>(TYPES.AuthService),
-      process.env.VUE_APP_BACKEND_URL
-    )
-  );
-
+if (process.env.NODE_ENV == "demo") {
+  container
+    .bind<IBackend>(TYPES.BackendService)
+    .toConstantValue(
+      new BackendServiceMock(container.get<IAuthService>(TYPES.AuthService), "")
+    );
+} else {
+  container
+    .bind<IBackend>(TYPES.BackendService)
+    .toConstantValue(
+      new BackendService(
+        container.get<IAuthService>(TYPES.AuthService),
+        process.env.VUE_APP_BACKEND_URL
+      )
+    );
+}
 container.bind<IRollParsing>(TYPES.RollParsingService).to(RollsParsingService);
 //Register all dice parsers
 container.bind<IRollParser>(TYPES.RollParser).to(PlainRollsParser);

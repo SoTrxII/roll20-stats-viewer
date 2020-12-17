@@ -13,7 +13,7 @@ import { AuthServiceMock } from "@/services/mocks/auth.service.mock";
 
 export const container = new Container();
 
-if (process.env.VUE_APP_AUTH == "CLIENT") {
+if (process.env.VUE_APP_AUTH == "DYNAMIC") {
   container
     .bind<IAuthService>(TYPES.AuthService)
     .to(AuthService)

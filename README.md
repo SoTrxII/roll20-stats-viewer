@@ -40,7 +40,7 @@ This is the "bot account" strategy.
 ### Configuration
 Create a `.env.production` file and fill it with these values :
 ```dosini
-# Your backend instance 
+# Your backend instance URL, hosted somewhere
 VUE_APP_BACKEND_URL=<your-backend-instance-url>
 # See modes. Backend must be configured accordingly.
 VUE_APP_AUTH=<DYNAMIC||STATIC>
@@ -54,5 +54,5 @@ building the project.
 # In the project directory
 docker build -t stats-viewer .
 # Running it on port 3000
-docker run -p 3000:3000 -it stats-viewer
+docker run -p 3000:80 -it stats-viewer
 ```

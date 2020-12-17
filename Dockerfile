@@ -3,6 +3,10 @@ WORKDIR /app
 COPY package.json /app/
 RUN apk add yarn python alpine-sdk && yarn install
 COPY . /app/
+ARG VUE_APP_BACKEND_URL
+ENV VUE_APP_BACKEND_URL $VUE_APP_BACKEND_URL
+ARG VUE_APP_AUTH
+ENV VUE_APP_AUTH $VUE_APP_AUTH
 RUN yarn run build
 
 FROM nginx:alpine

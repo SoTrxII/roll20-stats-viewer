@@ -7,10 +7,13 @@ import {
 import cBasicInfo from "./data/mock-campaigns-basic-infos.json";
 import cGeneralInfo from "./data/mock-campaigns-general-info.json";
 import sInfo from "./data/mock-session.json";
-import { injectable } from "inversify";
+import { inject, injectable } from "inversify";
+import { TYPES } from "@/types";
+import { IAuthService } from "@/@types/auth.service";
 
 @injectable()
 export class BackendServiceMock implements IBackend {
+  constructor(private authService: IAuthService, baseUrl: string) {}
   getCampaignList(): Promise<CampaignBasicInfos[]> {
     return Promise.resolve(cBasicInfo);
   }

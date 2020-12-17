@@ -4,7 +4,9 @@ import {
   IBackend,
   Session,
 } from "@/@types/backend.service";
-import { injectable } from "inversify";
+import { inject, injectable } from "inversify";
+import { IAuthService } from "@/@types/auth.service";
+import { TYPES } from "@/types";
 
 class BackendError extends Error {}
 
@@ -20,21 +22,37 @@ export class BackendService implements IBackend {
     };
   };
 
-  constructor(baseUrl: string) {
+  constructor(
+    @inject(TYPES.AuthService) private authService: IAuthService,
+    baseUrl: string
+  ) {
     this.baseUrl = baseUrl;
   }
 
+  private getHeaders() {
+    const h = new Headers();
+    Object.entries(this.authService.credentials).forEach(([k, v]) => {
+      h.append(k, v);
+    });
+    return h;
+  }
+
   async getCampaignList(): Promise<CampaignBasicInfos[]> {
-    return (await fetch(this.endpoints(this.baseUrl).list)).json();
+    return (
+      await fetch(this.endpoints(this.baseUrl).list, {
+        headers: this.getHeaders(),
+      })
+    ).json();
   }
 
   async getDetailsOfCampaign(
     id: string
   ): Promise<CampaignGeneralInfos | undefined> {
-    const details = (
-      await fetch(this.endpoints(this.baseUrl).genInfos(id))
+    return (
+      await fetch(this.endpoints(this.baseUrl).genInfos(id), {
+        headers: this.getHeaders(),
+      })
     ).json();
-    return details;
   }
 
   async getDetailsOfSession(
@@ -42,7 +60,9 @@ export class BackendService implements IBackend {
     sessionId: string
   ): Promise<Session | undefined> {
     return (
-      await fetch(this.endpoints(this.baseUrl).session(campaignId, sessionId))
+      await fetch(this.endpoints(this.baseUrl).session(campaignId, sessionId), {
+        headers: this.getHeaders(),
+      })
     ).json();
   }
 }

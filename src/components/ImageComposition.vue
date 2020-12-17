@@ -3,10 +3,7 @@
     <div
       class="onTop headline white--text text--lighten-1 align-center ma-auto d-flex flex-column"
     >
-      <h2>I didn't know what to do</h2>
-      <h2>So here's some waves</h2>
-      <img class="justify-center" src="https://i.imgur.com/BIMU2Dd.png" />
-      <h2>Why ? No idea.</h2>
+      <slot name="centered"></slot>
     </div>
     <div class="waveWrapper waveAnimation">
       <div class="waveWrapperInner bgTop">
@@ -39,12 +36,10 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class ImageComposition extends Vue {
-  @Prop({ required: true }) private images!: string[];
-}
+export default class ImageComposition extends Vue {}
 </script>
 
 <style lang="css">

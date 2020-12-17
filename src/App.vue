@@ -10,9 +10,11 @@
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
 import Default from "./layouts/Default.vue";
+import Blank from "@/layouts/Blank.vue";
 @Component({
   components: {
     Default,
+    Blank,
   },
 })
 export default class App extends Vue {

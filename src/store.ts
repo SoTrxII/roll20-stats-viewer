@@ -74,9 +74,6 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    /*setProducts(state, products) {
-      state.products = products;
-    },*/
     setCampaignList(state: Record<string, any>, cList: CampaignBasicInfos[]) {
       state.campaignList = cList;
     },

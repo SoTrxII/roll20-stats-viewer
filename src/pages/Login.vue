@@ -1,7 +1,7 @@
 <template>
   <image-composition>
     <template v-slot:centered>
-      <img class="justify-center" src="https://i.imgur.com/BIMU2Dd.png" />
+      <img class="justify-center" src="https://i.imgur.com/IgjMTE5.png" />
 
       <v-form ref="form" class="loginForm" v-model="valid" lazy-validation>
         <div v-if="errors.length">

@@ -13,7 +13,9 @@
       <v-app-bar-nav-icon
         @click="isDrawerVisible = !isDrawerVisible"
       ></v-app-bar-nav-icon>
-      <v-toolbar-title>{{ displayed.name }}</v-toolbar-title>
+      <v-toolbar-title
+        ><span class="shadow">{{ displayed.name }}</span></v-toolbar-title
+      >
     </v-app-bar>
     <v-navigation-drawer v-model="isDrawerVisible" app width="192" id="top">
       <v-container fill-height>
@@ -76,5 +78,8 @@ export default class Default extends Vue {
 }
 #top {
   z-index: 9998;
+}
+.shadow {
+  text-shadow: 0px 1px 8px #dfdfdf;
 }
 </style>

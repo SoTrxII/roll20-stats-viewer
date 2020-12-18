@@ -79,7 +79,7 @@ All contributions are welcome.
 ### Roll parsers
 
 Adding a new roll template parser is fairly simple:
-+ Creating a new class in `src/services/parsers` implementing the IRollParser interface
++ Create a new class in `src/services/parsers` implementing the IRollParser interface
   
 ```ts
 // File: src/@types/roll-parsing.service.d.ts
@@ -93,7 +93,7 @@ Adding a new roll template parser is fairly simple:
     parse(message: ChatMessage): IParsedRoll | undefined;
 }
 ```
-+ Registering the new parser in the DI container.
++ Register the new parser in the DI container.
 ```js
 // File: src/inversify.config.ts
 // Example registering "NewRollsParser"

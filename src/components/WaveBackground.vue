@@ -18,7 +18,7 @@
         <div
           class="wave waveMiddle"
           style="
-            background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png');
+            background-image: url('https://front-end-noobs.com/jecko/img/wave-mid.png');
           "
         ></div>
       </div>
@@ -27,7 +27,7 @@
         <div
           class="wave waveBottom"
           style="
-            background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png');
+            background-image: url('https://front-end-noobs.com/jecko/img/wave-bot.png');
           "
         ></div>
       </div>

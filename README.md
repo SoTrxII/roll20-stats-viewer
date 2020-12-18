@@ -6,7 +6,8 @@ A small interface to show rolled dices on Roll20. This is a very early version.
 
 A demo with fixtures is hosted on [GitHub pages](https://sotrxii.github.io/roll20-stats-viewer/).
 
-An actual live version, allowing you to get your info on your games, is running here.
+An actual live version, allowing you to get your info on your games, 
+[is running here](https://witty-river-02b318503.azurestaticapps.net).
 **However, please be aware that the recommended way to run this project is to run your own instance.**
 There is no Roll20 OAuth mechanism whatsoever, your credentials are used to connect to your account
 and collect the data needed (see [backend](https://github.com/SoTrxII/roll20-stats-viewer-backend)).

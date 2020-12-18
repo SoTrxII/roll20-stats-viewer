@@ -10,7 +10,7 @@
         <div
           class="wave waveTop"
           style="
-            background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png');
+            background-image: url('https://front-end-noobs.com/jecko/img/wave-top.png');
           "
         ></div>
       </div>
@@ -39,7 +39,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class ImageComposition extends Vue {}
+export default class WaveBackground extends Vue {}
 </script>
 
 <style lang="css">

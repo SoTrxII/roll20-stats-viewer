@@ -42,13 +42,13 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import ImageComposition from "@/components/ImageComposition.vue";
+import WaveBackground from "@/components/WaveBackground.vue";
 import { $inject } from "@vanroeybe/vue-inversify-plugin";
 import { TYPES } from "@/types";
 import { IAuthService } from "@/@types/auth.service";
 
 @Component({
-  components: { ImageComposition },
+  components: { ImageComposition: WaveBackground },
 })
 export default class Login extends Vue {
   //@ts-ignore
@@ -75,15 +75,13 @@ export default class Login extends Vue {
       this.$store.state.isLoading = true;
       this.authService.credentials = creds;
       await this.$store.dispatch("fetchCampaignList");
+      this.$router.push({ name: "home" });
     } catch (e) {
       this.authService.credentials = {};
       this.errors.push("Invalid credentials, could not connect to Roll20");
-      return;
     } finally {
       this.$store.state.isLoading = false;
     }
-
-    this.$router.push({ name: "home" });
   }
 }
 </script>

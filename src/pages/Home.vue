@@ -11,10 +11,10 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import ImageComposition from "@/components/ImageComposition.vue";
+import WaveBackground from "@/components/WaveBackground.vue";
 
 @Component({
-  components: { ImageComposition },
+  components: { ImageComposition: WaveBackground },
 })
 export default class Home extends Vue {}
 </script>
